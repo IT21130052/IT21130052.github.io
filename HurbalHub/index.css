@@ -1,0 +1,147 @@
+#Home {
+    background-image: url('./Images/homebackground.jpg');
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat; 
+    color: white;                   
+    padding: 100px 0;               
+}
+
+
+.section-body {
+  color: blanchedalmond; 
+  height: 100vh;
+  font-weight: bold; 
+  color: #556b2f; 
+  text-shadow: 1px 1px 3px #2f4f2f; 
+}
+.btn-light:hover {
+    background-color:#bfbdbe; /* Lighter green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2); /* Green glow shadow */
+}
+.section-body-2 {
+  color: blanchedalmond;
+  height: 150vh;
+}
+
+.small-paragraph {
+    font-size: 1.70rem; 
+    color: #556b2f; 
+}
+
+.section-body-3 {
+  color: #00695b;
+}
+
+
+.section-top-bottom{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.title-top-bottom{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.accordion-row{
+  width: 85vw;
+  background-color:#fafbff;
+}
+
+.contactus{
+  width: 85vw;
+}
+
+.shadow-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 12px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 3D Hover Effect on Cards */
+.card-section:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 128, 0, 0.2), /* Green glow */
+                0 8px 16px rgba(0, 0, 0, 0.2);   /* Regular shadow */
+}
+
+@media (min-width: 576px) {
+  .heading {
+    font-size: 100px;
+  }
+
+  .heading-2 {
+    font-size: 75px;
+  }
+}
+
+.sub-heading {
+  font-size: x-large;
+}
+
+.sub-heading-2 {
+  font-size: 20px;
+}
+
+.sub-heading-3 {
+  font-size: 30px;
+}
+
+.section-2 {
+    background-color: #ffffff; /* White background */
+    padding: 50px 20px; /* Adds padding for inner spacing */
+    border-radius: 15px; /* Rounded corners for a modern look */
+     box-shadow: 0 8px 16px rgba(0, 0, 255, 0.2); /* Green glow shadow */
+    margin: 30px 0; /* Adds spacing around the section */
+}
+
+.section-3 {
+  background-color: #ffffff;
+}
+
+.accordion-header-section {
+  background-color:  #00695b;
+  color: #ffffff;
+}
+
+.card-section {
+  transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #00d69a; 
+    padding: 20px;
+}
+
+.social-icons {
+  margin: 0px 3px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .accordion-section {
+    width: auto;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .accordion-section {
+    width: auto;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .accordion-section {
+    width: auto;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .accordion-section {
+    width: auto;
+  }
+}
